@@ -4,8 +4,8 @@ public class BankAccount {
 
     private int balance;
 
-    public BankAccount() {
-        balance = 0;
+    public BankAccount(int balance) {
+        this.balance=balance;
     }
 
     // public 메서드: deposit
